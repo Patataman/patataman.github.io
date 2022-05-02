@@ -1,276 +1,286 @@
-<!-- 
-  Hello 😊.
-
-  This template is designed and developed by Nisar Hassan Naqvi
-  for anyone to use for free or customize the way they like.
-
-  Github Repo: https://github.com/nisarhassan12/portfolio-template/
-  My Website: https://nisar.dev
-
-  For business & inquires, contact me => syednisarhassan12@gmail.com
--->
-
-<!--
-  Follow the instructions written in comments to create your stunning portfolio
--->
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <!-- ====== SEO ====== -->
+    <meta name="description" content="Daniel Rodriguez's portfolio">
+    <meta property="og:title" content="Daniel's Portfolio"/>
+    <meta property="og:url" content="https://patataman.github.io/"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:description" content="Daniel Rodriguez's portfolio" />
+    <link rel="icon" href="static/images/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniel's Portfolio</title>
+    <link rel="stylesheet" href="static/style/styles.css"/>
+    <link rel="stylesheet" href="static/style/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="static/style/fonts/gfonts.css"/>
+    <link rel="stylesheet" href="static/style/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="static/js/jquery-3.6.0.min.js" defer></script>
+    <script type="text/javascript" src="static/js/script.js" defer></script>
+    <script type="text/javascript" src="static/style/bootstrap/js/bootstrap.min.js" defer></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
-
-  <!-- Put your site title here -->
-  <title>
-    Syed Ali Hussnain | A Web Developer based in Lahore, Pakistan.
-  </title>
-
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
-  <link rel="stylesheet" href="index.css" />
-</head>
-
-<body>
-
-  <!-- ***** Header ***** -->
-
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Syed Ali Hussnain</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+  
+  <body>
+    <nav id="navbar" class="navbar navbar-expand navbar-dark bg-dark px-3 fixed-top">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#me">Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#talks">Talks</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </header>
-
-  <main role="main">
-
-    <!-- ***** Work ***** -->
-
-    <section class="work" id="work">
-      <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Portfolio Template</h3>
-              <p>
-                A free Open Source Portfolio for anyone to use for free.
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+    </nav>
+    <section id="me" class="col-10 offset-1 col-xl-8 offset-xl-2 pt-6">
+      <div class="row d-flex align-items-center mt-0 mt-sm-4 pt-4">
+        <div class="col-12 col-sm-6">
+          <p>Hello, I'm Daniel Rodríguez</p>
+          <p>Computer scientist with proffesional experience being backend engineer</p>
+          <p>My personal interests are videogames, computer graphics and open-source software</p>
+          <p class="float-end"><a class="no-style" href="static/resume.pdf" target="_blank"><i class="fa fa-download"></i></a> My resumé</p>
+          <p class="d-flex align-items-center mt-2">
+            <a class="mx-2 no-style" href="https://github.com/patataman" target="_blank">
+              <i class="fa fa-2x fa-github"></i></a>
+            <a class="mx-2 no-style" href="https://stackoverflow.com/users/9304067/daniel-rodr%C3%ADguez" target="_blank">
+              <i class="fa fa-2x fa-stack-overflow"></i></a>
+          </p>
+        </div>
+        <div class="col-12 col-sm-4 offset-sm-1">
+          <img id="profile-pict" src="static/images/profile.webp" alt="Daniel doing the 'I guess I'll die meme pose">
+        </div>
+      </div>
+    </section>
+    <section id="education" class="col-10 offset-1 col-xl-8 offset-xl-2 pt-6">
+      <div class="row d-flex justify-content-around align-items-stretch">
+        <div class="col-12 col-sm-6 d-flex align-items-start flex-column bd-highlight">
+          <div class="mb-auto">
+            <h3 class="mb-3"><i class="fa fa-terminal me-2" aria-hidden="true"></i>Interests</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Computer graphics</li>
+              <li class="list-group-item">Parallelism and optimisation</li>
+              <li class="list-group-item">Open-source software</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="mt-4 mt-sm-0"><i class="fa fa-terminal me-2" aria-hidden="true"></i>Others</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Member of the GUL UC3M <a class="no-style" href="https://gul.es" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a> (2014 - Present)
+                <ul>
+                  <li> President since 2020 </li>
+                  <li> Co-creator of GUL Jamón <a class="no-style" href="https://jamon.gul.es" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                  <li> Regular speaker </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+          <h3 class="mb-3"><i class="fa fa-graduation-cap me-2" aria-hidden="true"></i>Education</h3>
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">MS in Informatics Engineering</h5>
+              <p class="card-text text-muted"><i>Universidad Carlos III de Madrid (2020 - Present)</i></p>
+              <p class="card-text">Honours in: High Performance Computing and Massive and Linked Data</p>
             </div>
           </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Calculator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Notificator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
+          <div class="card mt-4">
+            <div class="card-body">
+              <h5 class="card-title">BS in Computer Science and Engineering</h5>
+              <p class="card-text text-muted"><i>Universidad Carlos III de Madrid (2013 - 2014)</i></p>
+              <p class="card-text">Honours in: Programming, Algorithms and Data Structures and Computer Graphics</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- ***** Clients ***** -->
-
-    <section class="client" id="clients">
-      <div class="row">
-        <h2>Clients</h2>
-        <div class="client__logos">
-          <!-- Add logos of the clients or companies you'have worked with. -->
-          <img src="./images/ronjones.png" class="client__logo" alt="Company 2" />
-          <img src="./images/goldengrid.png" class="client__logo" alt="Company 3" />
-          <img src="./images/bullseye.png" class="client__logo" alt="Company 1" />
-          <img src="./images/mighty-furnitures.png" class="client__logo" alt="Company 1" />
-          <img src="./images/fastlane.png" class="client__logo" alt="Company 3" />
-          <img src="./images/chippy.png" class="client__logo" alt="Company 1" />
+    <section id="experience" class="col-10 offset-1 col-xl-8 offset-xl-2 pt-6">
+      <div class="row d-flex justify-content-around align-items-stretch">
+        <div class="col-4 border-end border-dark border-3 d-none d-sm-inline">
+          <h3><i class="fa fa-briefcase me-2" aria-hidden="true"></i>Experience</h3>
+        </div>
+        <div class="col-12 d-inline d-sm-none">
+          <h3><i class="fa fa-briefcase me-2" aria-hidden="true"></i>Experience</h3>
+        </div>
+        <div class="col-12 col-sm-8">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Fullstack AI Engineer</h5>
+              <p class="card-text text-muted">
+                <a href="https://shazura.com" target="_blank">Shazura</a> (August 2018 - Present)</p>
+              <p class="card-text">
+                <ul>
+                  <li>Upgrade and mantain legacy code</li>
+                  <li>Develop new core functionalities and create from scratch new demos and applications</li>
+                  <li>Optimise and redesing the architecture to increase processing speed up to 100%</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div class="card mt-4">
+            <div class="card-body">
+              <h5 class="card-title">Intern - Technical Sales</h5>
+              <p class="card-text text-muted">
+                <a href="https://ibm.com" target="_blank">IBM</a> (October 2017 - August 2018)
+                </p>
+              <p class="card-text">
+                <ul>
+                  <li>Develop demos for clients and participation in projects related with Watson and IoT</li>
+                  <li>Develop a coin detector using RaspberryPi + Watson</li>
+                  <li>Develop a visual recognition solution using drones and an Android application</li>
+                  <li>Give an introduction workshop to Python</li>
+                </ul>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
-              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
-              in vel, ex quam quidem quos mollitia labore aut sunt eius
-              ratione molestiae fuga veniam facere similique voluptate.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My Resume</a>
+    <section id="projects" class="col-10 offset-1 col-xl-8 offset-xl-2 pt-6">
+      <h3 class="text-center"><i class="fa fa-flask me-2" aria-hidden="true"></i>Projects </h3>
+      <div class="row justify-content-around mt-4">
+        <div class="col-12 col-sm-4 mb-4 mb-sm-0 p-3">
+          <div class="card border-dark">
+            <img src="static/images/scgoliath.webp" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Goliat</h5>
+              <p class="card-text">Bachelor thesis and personal project. Bot for Starcraft: Brood War</p>
+              <div class="float-end">
+                <a href="https://github.com/Patataman/Goliat" target="_blank" class="btn btn-secondary me-2"><i class="fa fa-github"></i></a>
+                <a href="https://e-archivo.uc3m.es/handle/10016/27600" target="_blank" class="btn btn-secondary"><i class="fa fa-book"></i></a>
+              </div>
+            </div>
           </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+        </div>
+        <div class="col-12 col-sm-4 mb-4 mb-sm-0 p-3">
+          <div class="card border-dark">
+            <img src="static/images/pico.webp" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">PicoVolume</h5>
+              <p class="card-text">Add multimedia buttons to your keyboard using a RaspberryPico</p>
+              <div class="float-end">
+                <a href="https://github.com/Patataman/PicoVolume" target="_blank" class="btn btn-secondary me-2"><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-4 mb-4 mb-sm-0 p-3">
+          <div class="card border-dark">
+            <img src="static/images/basic.webp" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Basic&lt;Smth&gt;</h5>
+              <p class="card-text">Python, C++ or Latex. Repositories to learn in Spanish</p>
+              <div class="float-end">
+                <a href="https://github.com/search?q=user%3APatataman+basic" target="_blank" class="btn btn-secondary me-2"><i class="fa fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-around mt-4">
+        <div class="col-12 col-sm-4 mb-4 mb-sm-0 p-3">
+          <div class="card border-dark">
+            <img src="static/images/blackbeard.webp" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Blackbeard</h5>
+              <p class="card-text">Unofficial demo for showing product placement using Shazura's Fingerprint</p>
+              <div class="float-end">
+                <a href="https://blackbeard.shazura.com" target="_blank" class="btn btn-secondary me-2"><i class="fa fa-eye"></i></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-  </main>
-
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>
-          Are you looking for a fast-performing and user-friendly website to
-          represent your product or business? or looking for any kind of
-          consultation? or want to ask questions? or have some advice for me
-          or just want to say "Hi 👋" in any case feel free to Let me know. I
-          will do my best to respond back. 😊 The quickest way to reach out to
-          me is via an email.
-        </p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+    <section id="talks" class="col-10 offset-1 col-xl-8 offset-xl-2 pt-6">
+      <div class="row d-flex justify-content-around align-items-stretch">
+        <div class="col-4 border-end border-dark border-3 d-none d-sm-inline">
+          <h3><i class="fa fa-child me-2" aria-hidden="true"></i>Talks</h3>
+        </div>
+        <div class="col-12 d-inline d-sm-none">
+          <h3><i class="fa fa-child me-2" aria-hidden="true"></i>Talks</h3>
+        </div>
+        <div class="col-12 col-sm-8">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Introduction to Git</h5>
+              <p class="card-text text-muted">Spanish - 2021</p>
+              <p class="card-text">
+                Presentation of Git and how to use it <br>
+                You can watch it <a href="https://www.youtube.com/watch?v=jvsneGS00Tw" target="_blank" class="no-style">
+                  <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="card mt-4">
+            <div class="card-body">
+              <h5 class="card-title">Introduction to Linux</h5>
+              <p class="card-text text-muted">Spanish - 2021</p>
+              <p class="card-text">
+                Presentation of GIt and how to use it <br>
+                You can watch it <a href="https://www.youtube.com/watch?v=-8oo17P29VU" target="_blank" class="no-style">
+                  <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="card mt-4">
+            <div class="card-body">
+              <h5 class="card-title">Automatize yourself!</h5>
+              <p class="card-text text-muted">Spanish - 2019</p>
+              <p class="card-text">
+                Talk about how to use Bash + Crontab to automatize tasks<br>
+                You can watch it <a href="https://docs.google.com/presentation/d/1b9TWxoiEs80sDFZGC7ceUnesA0dAqpnDtJILIwYV2BE/edit?usp=sharing" target="_blank" class="no-style">
+                  <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="card mt-4">
+            <div class="card-body">
+              <h5 class="card-title">Python learning notebooks</h5>
+              <p class="card-text text-muted">Spanish - 2019</p>
+              <p class="card-text">
+                Presentation I did for a workshop at IBM<br>
+                You can watch it <a href="https://docs.google.com/presentation/d/1kRUwaG5AxDPsXrFVPNJcYORJw49-F_71K5WiU8jvZLI/edit?usp=sharing" target="_blank" class="no-style">
+                  <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="card mt-4">
+            <div class="card-body">
+              <h5 class="card-title">Pretend that you’re Herculé Poirot</h5>
+              <p class="card-text text-muted">Spanish - 2016</p>
+              <p class="card-text">
+                My first public talk. Presentation of LaTeX and how to use it<br>
+                You can watch it <a href="https://www.youtube.com/watch?v=WmXXdEpmSRY" target="_blank" class="no-style">
+                  <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://twitter.com/nisarhassan12/" title="Link to Twitter Profile">
-            <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/nisarhassan12/" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://codepen.io/nisar_hassan" title="Link to Codepen Profile">
-            <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2020 - Template designed & developed by <a href="https://nisar.dev" class="link">Nisar</a>.
-      </p>
-      <div class="footer__github-buttons">
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
-          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
-        </iframe>
+    </section>
+    <footer class="mt-4 p-4">
+      <div class="col-10 offset-1 col-xl-8 offset-xl-2 border-top border-dark border-1">
+        <p class="small">2022. Made from scratch and based on other portfolios</p>
       </div>
-    </div>
-  </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
-</body>
-
+    </footer>
+  </body>
 </html>
