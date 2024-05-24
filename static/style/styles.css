@@ -29,6 +29,11 @@ body section {
   max-width: 100%;
 }
 
+.scroller {
+  overflow: scroll;
+  max-height: 75vh;
+}
+
 /* ======  MEDIA QUERY SECTION START ====== */
 
 /* <<<<<<  MEDIA QUERY SECTION END >>>>>> */
