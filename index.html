@@ -130,6 +130,7 @@
                 <ul>
                   <li> Apply techniques to reduce memory consumption in DNN models without decreasing precision </li>
                   <li> Help fellow researchers with code problems and setting utilities such as Gitlab server or Wake-On-Lan </li>
+                  <li> Debug tomosynthesis reconstruction program in C++ </li>
                 </ul>
               </p>
             </div>
@@ -241,72 +242,125 @@
     </section>
     <section id="talks" class="col-10 offset-1 col-xl-8 offset-xl-2 pt-6">
       <div class="row d-flex justify-content-around align-items-stretch">
-        <div class="col-4 border-end border-dark border-3 d-none d-sm-inline">
-          <h3><i class="fa fa-child me-2" aria-hidden="true"></i>Talks</h3>
+        <div class="col-12 col-sm-4 border-end border-dark border-3 d-sm-inline nav nav-pills mb-4" role="tablist">
+          <h3 id="talk-pill" class="col-12 talk-menu border-end border-info border-3 pointer" data-bs-toggle="pill" data-bs-target="#talk-content" role="tab" aria-controls="talk-content">
+              <i class="fa fa-child me-2" aria-hidden="true"></i>Talks
+          </h3>
+          <h3 id="paper-pill" class="col-12 paper-menu mt-sm-4 border-end border-3 pointer" data-bs-toggle="pill" data-bs-target="#paper-content" role="tab" aria-controls="paper-content">
+              <i class="fa fa-file-text-o me-2" aria-hidden="true"></i>Papers
+          </h3>
         </div>
-        <div class="col-12 d-inline d-sm-none">
-          <h3><i class="fa fa-child me-2" aria-hidden="true"></i>Talks</h3>
-        </div>
-        <div class="col-12 col-sm-8 scroller">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Introduction to Git</h5>
-              <p class="card-text text-muted">Spanish - 2021</p>
-              <p class="card-text">
-                Presentation of Git and how to use it <br>
-                You can watch it <a href="https://www.youtube.com/watch?v=jvsneGS00Tw" target="_blank" class="no-style">
-                  <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
-                </a>
-              </p>
+        <div class="col-12 col-sm-8 scroller tab-content">
+          <div id="talk-content" class="tab-pane fade show active" role="tabpanel" aria-labelledby="talk-pill">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Introduction to Git</h5>
+                <p class="card-text text-muted">Spanish - 2021</p>
+                <p class="card-text">
+                  Presentation of Git and how to use it <br>
+                  You can watch it <a href="https://www.youtube.com/watch?v=jvsneGS00Tw" target="_blank" class="no-style">
+                    <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <div class="card-body">
+                <h5 class="card-title">Introduction to Linux</h5>
+                <p class="card-text text-muted">Spanish - 2021</p>
+                <p class="card-text">
+                  Presentation of GIt and how to use it <br>
+                  You can watch it <a href="https://www.youtube.com/watch?v=-8oo17P29VU" target="_blank" class="no-style">
+                    <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <div class="card-body">
+                <h5 class="card-title">Automatize yourself!</h5>
+                <p class="card-text text-muted">Spanish - 2019</p>
+                <p class="card-text">
+                  Talk about how to use Bash + Crontab to automatize tasks<br>
+                  You can watch it <a href="https://docs.google.com/presentation/d/1b9TWxoiEs80sDFZGC7ceUnesA0dAqpnDtJILIwYV2BE/edit?usp=sharing" target="_blank" class="no-style">
+                    <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <div class="card-body">
+                <h5 class="card-title">Python learning notebooks</h5>
+                <p class="card-text text-muted">Spanish - 2019</p>
+                <p class="card-text">
+                  Presentation I did for a workshop at IBM<br>
+                  You can watch it <a href="https://docs.google.com/presentation/d/1kRUwaG5AxDPsXrFVPNJcYORJw49-F_71K5WiU8jvZLI/edit?usp=sharing" target="_blank" class="no-style">
+                    <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div class="card mt-4">
+              <div class="card-body">
+                <h5 class="card-title">Pretend that you’re Herculé Poirot</h5>
+                <p class="card-text text-muted">Spanish - 2016</p>
+                <p class="card-text">
+                  My first public talk. Presentation of LaTeX and how to use it<br>
+                  You can watch it <a href="https://www.youtube.com/watch?v=WmXXdEpmSRY" target="_blank" class="no-style">
+                    <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
-          <div class="card mt-4">
-            <div class="card-body">
-              <h5 class="card-title">Introduction to Linux</h5>
-              <p class="card-text text-muted">Spanish - 2021</p>
-              <p class="card-text">
-                Presentation of GIt and how to use it <br>
-                You can watch it <a href="https://www.youtube.com/watch?v=-8oo17P29VU" target="_blank" class="no-style">
-                  <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
-                </a>
-              </p>
+
+          <div id="paper-content" class="tab-pane fade" role="tabpanel" aria-labelledby="paper-pill">
+            <div class="card">
+              <div class="card-body">
+                <div class="row align-items-center justify-content-between"><h5 class="col-10 card-title">HeteroPAR</h5><p class="col">August 2024</p></div>
+                <p class="card-text text-muted">
+                    Strategies for memory management improvement in deep learning
+                    algorithms for contrast enhancement of high-resolution radiological images.
+                    <br>
+                    <i>(Yes, it is the same as SARTECO, but this will have a DOI)</i>
+                </p>
+                <p class="card-text">Daniel A. Rodríguez López, Javier García Blas, et al.</p>
+              </div>
             </div>
-          </div>
-          <div class="card mt-4">
-            <div class="card-body">
-              <h5 class="card-title">Automatize yourself!</h5>
-              <p class="card-text text-muted">Spanish - 2019</p>
-              <p class="card-text">
-                Talk about how to use Bash + Crontab to automatize tasks<br>
-                You can watch it <a href="https://docs.google.com/presentation/d/1b9TWxoiEs80sDFZGC7ceUnesA0dAqpnDtJILIwYV2BE/edit?usp=sharing" target="_blank" class="no-style">
-                  <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
-                </a>
-              </p>
+
+            <div class="card mt-4">
+              <div class="card-body">
+                  <div class="row align-items-center justify-content-between">
+                      <h5 class="col-10 card-title">
+                          <a href="static/papers/sarteco_2024.pdf" target="_blank">Jornadas SARTECO</a>
+                      </h5>
+                      <p class="col">June 2024</p>
+                    </div>
+                <p class="card-text text-muted">
+                    Estrategias para la mejora de gestión de memoria en algoritmos
+                    de aprendizaje profundo para el realce de contraste de imágenes
+                    radiológicas de alta resolución.
+                </p>
+                <p class="card-text">Daniel A. Rodríguez López, Javier García Blas, et al.</p>
+              </div>
             </div>
-          </div>
-          <div class="card mt-4">
-            <div class="card-body">
-              <h5 class="card-title">Python learning notebooks</h5>
-              <p class="card-text text-muted">Spanish - 2019</p>
-              <p class="card-text">
-                Presentation I did for a workshop at IBM<br>
-                You can watch it <a href="https://docs.google.com/presentation/d/1kRUwaG5AxDPsXrFVPNJcYORJw49-F_71K5WiU8jvZLI/edit?usp=sharing" target="_blank" class="no-style">
-                  <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
-                </a>
-              </p>
+            <div class="card mt-4">
+              <div class="card-body">
+                  <div class="row align-items-center justify-content-between">
+                      <h5 class="col-10 card-title">
+                          <a href="https://ken.ieice.org/ken/paper/20230804sCv2/eng/" target="_blank">SWoPP 2023</a>
+                      </h5>
+                      <p class="col">June 2024</p>
+                  </div>
+                <p class="card-text text-muted">
+                    Parallelization improvements in MPS simulation using Qiskit.
+                    <br>
+                    <i>Work is merged into the Qiskit repository <a href="https://github.com/Qiskit/qiskit-aer/pull/1897" target="_blank">with a PR</a></i>
+                </p>
+                <p class="card-text">Daniel A. Rodríguez López, Takumi HONDA, Masafumi YAMAZAKI, et al.</p>
+              </div>
             </div>
-          </div>
-          <div class="card mt-4">
-            <div class="card-body">
-              <h5 class="card-title">Pretend that you’re Herculé Poirot</h5>
-              <p class="card-text text-muted">Spanish - 2016</p>
-              <p class="card-text">
-                My first public talk. Presentation of LaTeX and how to use it<br>
-                You can watch it <a href="https://www.youtube.com/watch?v=WmXXdEpmSRY" target="_blank" class="no-style">
-                  <u>here</u> <i class="fa fa-external-link" aria-hidden="true"></i>
-                </a>
-              </p>
-            </div>
+
           </div>
         </div>
       </div>

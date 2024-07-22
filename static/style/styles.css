@@ -34,6 +34,10 @@ body section {
   max-height: 75vh;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 /* ======  MEDIA QUERY SECTION START ====== */
 
 /* <<<<<<  MEDIA QUERY SECTION END >>>>>> */
