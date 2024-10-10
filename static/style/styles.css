@@ -38,6 +38,13 @@ body section {
     cursor: pointer;
 }
 
+.card-img-top {
+    max-width: 100%;
+    width: fit-content !important;
+    margin: auto;
+    min-height: 150px;
+}
+
 /* ======  MEDIA QUERY SECTION START ====== */
 
 /* <<<<<<  MEDIA QUERY SECTION END >>>>>> */
