@@ -45,6 +45,11 @@ body section {
     min-height: 150px;
 }
 
+.oss {
+    max-width: 100px;
+    max-height: 100px;
+}
+
 /* ======  MEDIA QUERY SECTION START ====== */
 
 /* <<<<<<  MEDIA QUERY SECTION END >>>>>> */

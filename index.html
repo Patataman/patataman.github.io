@@ -130,7 +130,7 @@
                 <ul>
                   <li> Apply techniques to reduce memory consumption in DNN models without decreasing precision </li>
                   <li> Help fellow researchers with code problems and setting utilities such as Gitlab server or Wake-On-Lan </li>
-                  <li> Debug tomosynthesis reconstruction program in C++ </li>
+                  <li> Debug and speed-up tomosynthesis reconstruction program in C/CUDA </li>
                 </ul>
               </p>
             </div>
@@ -254,6 +254,27 @@
       -->
       </div>
     </section>
+    <section id="oss" class="col-10 offset-1 col-xl-8 offset-xl-2 pt-6">
+      <h3 class="text-center"><i class="fa fa-code-fork me-2" aria-hidden="true"></i>OSS Contributions </h3>
+      <div class="row justify-content-around mt-4">
+          <p class="text-center"> Here you can find OSS projects I have <i>somehow</i> contributed to. </p>
+          <p class="d-flex align-items-center justify-content-center mt-2">
+            <a class="mx-2 no-style" href="https://github.com/guluc3m" target="_blank">
+              <img class="oss" src="static/images/gul-logo.png" alt="GUL UC3M">
+            </a>
+            <a class="mx-2 no-style" href="https://github.com/Qiskit/qiskit-aer/pulls?q=is%3Apr+author%3APatataman+" target="_blank">
+              <img class="oss" src="static/images/qiskit-logo.png" alt="Qiskit">
+            </a>
+            <a class="mx-2 no-style" href="https://github.com/pytorch/pytorch/pull/141132" target="_blank">
+              <img class="oss" src="static/images/pytorch-logo.svg" alt="PyTorch" width=100px>
+            </a>
+            <a class="mx-2 no-style" href="https://github.com/ashcrow/flask-track-usage/pull/65" target="_blank">
+              Flask-track-usage
+            </a>
+          </p>
+      </div>
+    </section>
+
     <section id="talks" class="col-10 offset-1 col-xl-8 offset-xl-2 pt-6">
       <div class="row d-flex justify-content-around align-items-stretch">
         <div class="col-12 col-sm-4 border-end border-dark border-3 d-sm-inline nav nav-pills mb-4" role="tablist">
@@ -331,7 +352,35 @@
           <div id="paper-content" class="tab-pane fade" role="tabpanel" aria-labelledby="paper-pill">
             <div class="card">
               <div class="card-body">
-                <div class="row align-items-center justify-content-between"><h5 class="col-10 card-title">HeteroPAR</h5><p class="col">August 2024</p></div>
+                <div class="row align-items-center justify-content-between">
+                    <h5 class="col card-title"> PDP 2025 </h5>
+                </div>
+                <p class="card-text text-muted">
+                    <i> (Unpublished) </i> TOM: PyTorch Optimization Module to ease the use of memory optimization techniques
+                </p>
+                <p class="card-text">Daniel A. Rodríguez López, Javier García Blas, Mónica Abella</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <div class="row align-items-center justify-content-between">
+                    <h5 class="col card-title">
+                        <a href="https://caseib.es/2024/wp-content/uploads/2024/11/CASEIB-2024-Programa-final.pdf" target="_blank">CASEIB 2024</a>
+                    </h5>
+                    <p class="col-auto">November 2024</p></div>
+                <p class="card-text text-muted">
+                    Estrategias para la mejora de gestión de memoria en algoritmos de aprendizaje
+                    profundo para el realce de contraste de imágenes radiológicas de alta resolución
+                    <br>
+                    <i>(Yes, it is the same as SARTECO)</i>
+                </p>
+                <p class="card-text">Daniel A. Rodríguez López, Javier García Blas, et al.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <div class="row align-items-center justify-content-between"><h5 class="col card-title">HeteroPAR</h5><p class="col-auto">August 2024</p></div>
                 <p class="card-text text-muted">
                     Strategies for memory management improvement in deep learning
                     algorithms for contrast enhancement of high-resolution radiological images.
@@ -345,10 +394,10 @@
             <div class="card mt-4">
               <div class="card-body">
                   <div class="row align-items-center justify-content-between">
-                      <h5 class="col-10 card-title">
+                      <h5 class="col card-title">
                           <a href="static/papers/sarteco_2024.pdf" target="_blank">Jornadas SARTECO</a>
                       </h5>
-                      <p class="col">June 2024</p>
+                      <p class="col-auto">June 2024</p>
                     </div>
                 <p class="card-text text-muted">
                     Estrategias para la mejora de gestión de memoria en algoritmos
@@ -361,10 +410,10 @@
             <div class="card mt-4">
               <div class="card-body">
                   <div class="row align-items-center justify-content-between">
-                      <h5 class="col-10 card-title">
+                      <h5 class="col card-title">
                           <a href="https://ken.ieice.org/ken/paper/20230804sCv2/eng/" target="_blank">SWoPP 2023</a>
                       </h5>
-                      <p class="col">June 2024</p>
+                      <p class="col-auto">June 2024</p>
                   </div>
                 <p class="card-text text-muted">
                     Parallelization improvements in MPS simulation using Qiskit.
